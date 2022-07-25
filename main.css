@@ -1,0 +1,108 @@
+/* * {
+  font-family: Georgia, "Times New Roman", Times, serif, serif;
+  /* font-family: "Montserrat", sans-serif; */
+/* } */
+/* p {
+  font-family: "Montserrat", sans-serif;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap"); */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: rgb(56, 187, 241);
+  background: linear-gradient(
+    90deg,
+    rgba(56, 187, 241, 1) 0%,
+    rgba(160, 32, 240, 1) 100%
+  );
+}
+
+.svg-wave {
+  height: 50vh;
+  margin-bottom: 150vh;
+}
+
+li {
+  font-size: 80%;
+}
+
+.btn {
+  font-size: 0.7rem !important;
+  padding: 10px !important;
+}
+
+.btn-register {
+  background-color: #192b47 !important;
+}
+
+.btn-signup {
+  background-color: rgba(56, 187, 241, 1) !important;
+}
+
+.fas,
+.fa-bars {
+  color: #fff;
+}
+
+h6 {
+  line-height: 1.7rem !important;
+}
+
+.float-end {
+  /* position: absolute; */
+  /* top: 260px; */
+  /* z-index: 1; */
+}
+
+.img-position {
+  position: relative;
+  margin-top: -40vw;
+  margin-left: -35px;
+}
+
+@media (min-width: 1055px) {
+  .img-position {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.h1-position {
+  font-weight: 900 !important;
+  margin-top: 50px !important;
+}
+
+@media (max-width: 730px) {
+  .why-bankist-position {
+    padding-top: 190px;
+  }
+}
+
+@media (min-width: 730px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+.fa-solid {
+  color: slateblue;
+  border: 1px solid cornflowerblue;
+  border-radius: 50%;
+}
+
+@media (min-width: 577px) {
+  .upload-icon {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+  h6 {
+    font-size: 1.35rem !important;
+    line-height: 1.9rem !important;
+  }
+}
